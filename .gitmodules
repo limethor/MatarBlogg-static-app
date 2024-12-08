@@ -1,3 +1,6 @@
 [submodule "themes/quietfoodie"]
 	path = themes/quietfoodie
 	url = https://github.com/paposeco/quietfoodie.git
+[submodule "static-app/themes/quietfoodie"]
+	path = static-app/themes/quietfoodie
+	url = https://github.com/paposeco/quietfoodie.git
