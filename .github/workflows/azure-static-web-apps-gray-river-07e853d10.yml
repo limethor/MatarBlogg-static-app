@@ -1,115 +1,88 @@
 
-   on:
+on:
 
-     push:
+  push:
 
-       branches:
+    branches:
 
-         - main
+      - main
 
-     pull_request:
+  pull_request:
 
-       types: [opened, synchronize, reopened, closed]
+    types: [opened, synchronize, reopened, closed]
 
-       branches:
+    branches:
 
-         - main
+      - main
 
- 
 
-   jobs:
 
-     build_and_deploy_job:
+jobs:
 
-       if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+  build_and_deploy_job:
 
-       runs-on: ubuntu-latest
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
 
-       name: Build and Deploy Job
+    runs-on: ubuntu-latest
 
-       permissions:
+    name: Build and Deploy Job
 
-         id-token: write
+    steps:
 
-         contents: read
+      - uses: actions/checkout@v3
 
-       steps:
+        with:
 
-         - uses: actions/checkout@v3
+          submodules: true
 
-           with:
+          lfs: false
 
-             submodules: true
+      - name: Build And Deploy
 
-             lfs: false
+        id: builddeploy
 
-         - name: Install OIDC Client from Core Package
+        uses: Azure/static-web-apps-deploy@v1
 
-           run: npm install @actions/core@1.6.0 @actions/http-client
+        with:
 
-         - name: Get Id Token
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GRAY_RIVER_07E853D10 }}
 
-           uses: actions/github-script@v6
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
 
-           id: idtoken
+          action: "upload"
 
-           with:
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
 
-             script: |
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
 
-               const coredemo = require('@actions/core')
+          app_location: "../static-app" # App source code path
 
-               return await coredemo.getIDToken()
+          api_location: "" # Api source code path - optional
 
-             result-encoding: string
+          output_location: "." # Built app content directory - optional
 
-         - name: Build And Deploy
+          ###### End of Repository/Build Configurations ######
 
-           id: builddeploy
 
-           uses: Azure/static-web-apps-deploy@v1
 
-           with:
+  close_pull_request_job:
 
-             azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GRAY_RIVER_07E853D10 }}
-             repo_token: ${{ secrets.GITHUB_TOKEN }}
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
 
-             action: "upload"
+    runs-on: ubuntu-latest
 
-             ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+    name: Close Pull Request Job
 
-             # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+    steps:
 
-             app_location: "static-app" # App source code path
+      - name: Close Pull Request
 
-             api_location: "" # Api source code path - optional
+        id: closepullrequest
 
-             output_location: "public" # Built app content directory - optional
+        uses: Azure/static-web-apps-deploy@v1
 
-             github_id_token: ${{ steps.idtoken.outputs.result }}
+        with:
 
-             app_build_command: "npm run build" # Add this line with your build command
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GRAY_RIVER_07E853D10 }}
 
-             ###### End of Repository/Build Configurations ######
-
- 
-
-     close_pull_request_job:
-
-       if: github.event_name == 'pull_request' && github.event.action == 'closed'
-
-       runs-on: ubuntu-latest
-
-       name: Close Pull Request Job
-
-       steps:
-
-         - name: Close Pull Request
-
-           id: closepullrequest
-
-           uses: Azure/static-web-apps-deploy@v1
-
-           with:
-
-             action: "close"
+          action: "close"
