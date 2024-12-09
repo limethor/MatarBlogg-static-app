@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uppskriftir</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Uppskriftir</description>
+    <title>Recipes on Uppskriftir</title>
+    <link>http://localhost:1313/recipes/</link>
+    <description>Recent content in Recipes on Uppskriftir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Dec 2024 18:52:02 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Dec 2024 18:52:02 +0000</lastBuildDate><atom:link href="http://localhost:1313/recipes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>PiparKökur</title>
       <link>http://localhost:1313/recipes/piparkokur/</link>
       <pubDate>Mon, 09 Dec 2024 18:52:02 +0000</pubDate>
       
       <guid>http://localhost:1313/recipes/piparkokur/</guid>
       <description>&lt;!-- image used on the recipe schema --&gt;
-&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;recipeimg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ginger.webp&#34; alt=&#34;recipeimg&#34;&gt;&lt;/p&gt;
 &lt;h3&gt;Ingredients (&lt;span class=&#34;yield&#34;&gt;&lt;/span&gt;)&lt;/h3&gt;
 &lt;!-- write a list of ingredients --&gt;
+&lt;p&gt;Hveiti
+smjör og meira&lt;/p&gt;
 &lt;h3&gt;Instructions (Time: &lt;span class=&#34;duration&#34;&gt;&lt;/span&gt;)&lt;/h3&gt;
 &lt;!-- write instructions --&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;#This is something&lt;/p&gt;</description>
     </item>
     
   </channel>
