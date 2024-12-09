@@ -3,22 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-09T18:52:02+00:00</lastmod>
+    <lastmod>2024-12-09T23:13:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2024-12-09T23:13:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/bakstur/</loc>
+    <lastmod>2024-12-09T23:13:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/</loc>
+    <lastmod>2024-12-09T23:13:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hversdags/</loc>
+    <lastmod>2024-12-09T23:13:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/beyglur/</loc>
+    <lastmod>2024-12-09T23:13:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-09T23:13:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/drykkir/</loc>
+    <lastmod>2024-12-09T22:49:42+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/cocktail_fonn/</loc>
+    <lastmod>2024-12-09T22:49:42+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kokteilar/</loc>
+    <lastmod>2024-12-09T22:49:42+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/j%C3%B3l/</loc>
+    <lastmod>2024-12-09T18:52:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/k%C3%B6kur/</loc>
     <lastmod>2024-12-09T18:52:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/piparkokur/</loc>
     <lastmod>2024-12-09T18:52:02+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/j%C3%B3l/</loc>
-    <lastmod>2024-12-09T18:52:02+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-09T18:52:02+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/</loc>
   </url>
 </urlset>

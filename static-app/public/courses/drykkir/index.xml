@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drykkir on Uppskriftir</title>
+    <link>http://localhost:1313/courses/drykkir/</link>
+    <description>Recent content in Drykkir on Uppskriftir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Dec 2024 22:49:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/courses/drykkir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fönn</title>
+      <link>http://localhost:1313/recipes/cocktail_fonn/</link>
+      <pubDate>Mon, 09 Dec 2024 22:49:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/recipes/cocktail_fonn/</guid>
+      <description>&lt;!-- image used on the recipe schema --&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/fonn.png&#34; alt=&#34;recipeimg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;hráefni&#34;&gt;Hráefni&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;glas-coupe&#34;&gt;Glas: Coupe&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- write a list of ingredients --&gt;
+&lt;ul&gt;
+&lt;li&gt;60ml - Gin&lt;/li&gt;
+&lt;li&gt;30ml - Hvítt súkkulaðisíróp&lt;/li&gt;
+&lt;li&gt;30ml - Mandarínu Safi&lt;/li&gt;
+&lt;li&gt;15ml - Lime Safi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;leiðbeiningar&#34;&gt;Leiðbeiningar&lt;/h3&gt;
+&lt;!-- write instructions --&gt;
+&lt;p&gt;Hendið öllu ofan í hristara með klökum og hristið hressilega. Fine-strain í Coupe glas og skreytið með annaðhvort brenndu rósmarín eða Greni. Raspa smá Múskat yfir&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

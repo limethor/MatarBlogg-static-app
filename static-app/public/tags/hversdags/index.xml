@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HversDags on Uppskriftir</title>
+    <link>http://localhost:1313/tags/hversdags/</link>
+    <description>Recent content in HversDags on Uppskriftir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Dec 2024 23:13:02 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hversdags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lúxus Beyglur</title>
+      <link>http://localhost:1313/recipes/beyglur/</link>
+      <pubDate>Mon, 09 Dec 2024 23:13:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/recipes/beyglur/</guid>
+      <description>&lt;!-- image used on the recipe schema --&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/bagles.jpg&#34; alt=&#34;recipeimg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;hráefni-8-beyglur&#34;&gt;Hráefni (8 Beyglur)&lt;/h3&gt;
+&lt;!-- write a list of ingredients --&gt;
+&lt;ul&gt;
+&lt;li&gt;360ml Volgt Vatn&lt;/li&gt;
+&lt;li&gt;520gr Brauð Hveiti (T.d. Blátt Kornax)&lt;/li&gt;
+&lt;li&gt;1Msk Púðursykur&lt;/li&gt;
+&lt;li&gt;2Tsk Salt&lt;/li&gt;
+&lt;li&gt;1pk Ger&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;leiðbeiningar-tími-60-mín&#34;&gt;Leiðbeiningar (Tími: 60 Mín)&lt;/h3&gt;
+&lt;!-- write instructions --&gt;
+&lt;ul&gt;
+&lt;li&gt;Byrjið á að blanda Volgu Vatni, Geri og PúðurSykri saman í skál og leyfið að standa í nokkrar mín.&lt;/li&gt;
+&lt;li&gt;Bætið svo við hveitinu og saltinu og hnoðið þangað til að deigið er slétt og fínt.&lt;/li&gt;
+&lt;li&gt;Leyfið deginu að hefast í klukkutíma.&lt;/li&gt;
+&lt;li&gt;Mótið beyglurnar&lt;/li&gt;
+&lt;li&gt;Sjóða Beyglurnar í heitu vatni ásamt hunangi (Eða annari sætu)&lt;/li&gt;
+&lt;li&gt;Pensla beyglurnar með eggi og setja Toppings&lt;/li&gt;
+&lt;li&gt;Baka í ofni 200-220°C í 20-25 mínútur&lt;/li&gt;
+&lt;li&gt;Skera Beyglurnar&lt;/li&gt;
+&lt;li&gt;Frysta&lt;/li&gt;
+&lt;li&gt;Bæng!&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

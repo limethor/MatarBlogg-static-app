@@ -3,7 +3,7 @@ title = "PiparKökurnar hennar Hönnu Boggu"
 published = 2024-12-09T18:52:02Z
 draft = false
 author = "Author"
-tags = ['jól']
+tags = ['Jól','kökur']
 courses = ['Bakstur']
 # recipe thumbnail on courses
 featuredimg = ""
@@ -30,7 +30,7 @@ featuredimg = ""
 ### Leiðbeiningar (Tími: 15 Mín)
 
 <!-- write instructions -->
-Velgið smjör og síróp í potto
+Velgið smjör og síróp í potti
 
 Blandið öllu þurrefni saman.
 Setjið svo Síróps blöndu og Rjóma saman við og grærið

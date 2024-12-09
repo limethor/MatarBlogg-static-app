@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kökur on Uppskriftir</title>
+    <link>http://localhost:1313/tags/k%C3%B6kur/</link>
+    <description>Recent content in Kökur on Uppskriftir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Dec 2024 18:52:02 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/k%C3%B6kur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PiparKökurnar hennar Hönnu Boggu</title>
+      <link>http://localhost:1313/recipes/piparkokur/</link>
+      <pubDate>Mon, 09 Dec 2024 18:52:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/recipes/piparkokur/</guid>
+      <description>&lt;!-- image used on the recipe schema --&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ginger.webp&#34; alt=&#34;recipeimg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;hráefni-eitthvað-x-margar-kökur&#34;&gt;Hráefni (Eitthvað x margar kökur)&lt;/h3&gt;
+&lt;!-- write a list of ingredients --&gt;
+&lt;ul&gt;
+&lt;li&gt;75gr - Smjör&lt;/li&gt;
+&lt;li&gt;1,5dl - Golden Síróp&lt;/li&gt;
+&lt;li&gt;1,5dl - Sykur&lt;/li&gt;
+&lt;li&gt;1,5dl - Púðursykur&lt;/li&gt;
+&lt;li&gt;1,5dl - Rjómi&lt;/li&gt;
+&lt;li&gt;3 tsk - Kanill&lt;/li&gt;
+&lt;li&gt;2 tsk - Engifer&lt;/li&gt;
+&lt;li&gt;1 tsk - Negull&lt;/li&gt;
+&lt;li&gt;1 tsk - Matarsódi&lt;/li&gt;
+&lt;li&gt;600gr - Hveiti (Rauða Kornax t.d)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;leiðbeiningar-tími-15-mín&#34;&gt;Leiðbeiningar (Tími: 15 Mín)&lt;/h3&gt;
+&lt;!-- write instructions --&gt;
+&lt;p&gt;Velgið smjör og síróp í potti&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

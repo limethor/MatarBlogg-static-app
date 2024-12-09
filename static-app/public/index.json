@@ -13,11 +13,33 @@
  
  ,
  {
-	   "uri": "/recipes/piparkokur/",
-	   "title": "",
-	   "tags": ["jól"],
+	   "uri": "/recipes/beyglur/",
+	   "title": "Lúxus Beyglur",
+	   "tags": ["HversDags"],
 	   "description": "",
-	   "content": "\rIngredients () Instructions (Time: ) "
+	   "content": "\rHráefni (8 Beyglur) 360ml Volgt Vatn 520gr Brauð Hveiti (T.d. Blátt Kornax) 1Msk Púðursykur 2Tsk Salt 1pk Ger Leiðbeiningar (Tími: 60 Mín) Byrjið á að blanda Volgu Vatni, Geri og PúðurSykri saman í skál og leyfið að standa í nokkrar mín. Bætið svo við hveitinu og saltinu og hnoðið þangað til að deigið er slétt og fínt. Leyfið deginu að hefast í klukkutíma. Mótið beyglurnar Sjóða Beyglurnar í heitu vatni ásamt hunangi (Eða annari sætu) Pensla beyglurnar með eggi og setja Toppings Baka í ofni 200-220°C í 20-25 mínútur Skera Beyglurnar Frysta Bæng! "
+ }
+ 
+ 
+ 
+ ,
+ {
+	   "uri": "/recipes/cocktail_fonn/",
+	   "title": "Fönn",
+	   "tags": ["kokteilar"],
+	   "description": "",
+	   "content": "\rHráefni Glas: Coupe 60ml - Gin 30ml - Hvítt súkkulaðisíróp 30ml - Mandarínu Safi 15ml - Lime Safi Leiðbeiningar Hendið öllu ofan í hristara með klökum og hristið hressilega. Fine-strain í Coupe glas og skreytið með annaðhvort brenndu rósmarín eða Greni. Raspa smá Múskat yfir\n"
+ }
+ 
+ 
+ 
+ ,
+ {
+	   "uri": "/recipes/piparkokur/",
+	   "title": "PiparKökurnar hennar Hönnu Boggu",
+	   "tags": ["Jól", "kökur"],
+	   "description": "",
+	   "content": "\rHráefni (Eitthvað x margar kökur) 75gr - Smjör 1,5dl - Golden Síróp 1,5dl - Sykur 1,5dl - Púðursykur 1,5dl - Rjómi 3 tsk - Kanill 2 tsk - Engifer 1 tsk - Negull 1 tsk - Matarsódi 600gr - Hveiti (Rauða Kornax t.d) Leiðbeiningar (Tími: 15 Mín) Velgið smjör og síróp í potti\nBlandið öllu þurrefni saman. Setjið svo Síróps blöndu og Rjóma saman við og grærið\nBakið í 4-5 mín við 225°C (Blástur ef margar plötur eru settar inn í einu, annars yfir og undir!)\n"
  }
  
  ]
